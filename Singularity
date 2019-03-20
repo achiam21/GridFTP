@@ -17,7 +17,7 @@ AUTHOR alvin@nscc.sg
 #echo "The post section is where you can install, and configure your container."
 #
 rpm -hUv http://www.globus.org/ftppub/gt6/installers/repo/globus-toolkit-repo-latest.noarch.rpm
-yum -y update
+yum -y update && yum -y install epel-release
 yum -y install yum-plugin-priorities # globus installer needs this
 yum -y install globus-data-management-client
 yum -y install globus-data-management-server
