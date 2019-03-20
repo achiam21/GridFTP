@@ -19,3 +19,4 @@ AUTHOR alvin@nscc.sg
 rpm -hUv http://www.globus.org/ftppub/gt6/installers/repo/globus-toolkit-repo-latest.noarch.rpm
 yum -y install yum-plugin-priorities # globus installer needs this
 yum -y install globus-data-management-client
+yum -y install globus-data-management-server
