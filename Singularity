@@ -17,4 +17,3 @@ AUTHOR alvin@nscc.sg
 #echo "The post section is where you can install, and configure your container."
 #
 rpm -hUv http://www.globus.org/ftppub/gt6/installers/repo/globus-toolkit-repo-latest.noarch.rpm
-yum install yum-plugin-priorities
