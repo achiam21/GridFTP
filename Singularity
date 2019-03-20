@@ -20,3 +20,4 @@ rpm -hUv http://www.globus.org/ftppub/gt6/installers/repo/globus-toolkit-repo-la
 yum -y update && yum -y install epel-release
 yum -y install yum-plugin-priorities # globus installer needs this
 yum -y install globus-data-management-client globus-data-management-server
+/etc/init.d/globus-gridftp-sshftp reconfigure
